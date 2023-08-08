@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+$secondary: #fea830;
+
+//Header Section Css
+.container{
+   width: 1140px;
+    margin: auto;
+}
+.header{
+    background-color: #fea830;
+    padding: 0px 20px;
+}
+.header img{
+    width: 35%;
+}
+.logo,.logo-title {
+    float: left;
+    width: 50%;
+}
+.logo{
+    margin-top: 10px;
+}
+.logo-title{
+    text-align: right;
+    color: #fff;
+}
+.logo-title h1{
+    font-weight: 500;
+}
+
+.header::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+//Patient and facility section Css
+
+.patient,.facility{
+    float: left;
+    width: 50%;
+}
+
+.patient-facility::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+
+
+
+//Media Query
+
+@media (max-width: 1200px) {
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+
+    .header img{
+        width: 100%;
+    }
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
+
+@media (max-width: 575.98px) {
+    .logo-title h1{
+        font-size: 18px;
+    }
+    .logo {
+        float: left;
+        width: 40%;
+        margin-top: 8px;
+    }
+    .logo-title {
+        float: left;
+        width: 60%;
+        margin-top: 4px;
+    }
+
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+
+}
